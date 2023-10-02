@@ -1,0 +1,31 @@
+* {
+    background-image: url(image\ 1.jpg);   
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+   color: blue;  
+}
+h3{
+    text-align: center;
+    color: green;   
+}
+.A1 {
+     background: rgb(139, 139, 235)
+}
+.A2{
+  background: rgb(241, 241, 185);
+}
+.A3
+{
+   background: rgb(245, 139, 139);
+}
+.link{
+    align-items: center;
+    text-align: center;
+}
+.link a{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+    
