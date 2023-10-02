@@ -1,0 +1,107 @@
+body{
+    background-image: url(image\ 1.jpg);   
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+   color: blue;  
+}
+h3{
+    text-align: center;
+    color: green;  
+    margin-top: 40px; 
+}
+.hlink{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.A1 {
+    background: rgb(139, 139, 235)
+}
+.A2{
+ background: rgb(241, 241, 185);
+}
+.A3
+{
+  background: rgb(245, 139, 139);
+}
+.link{
+    align-items: center;
+    text-align: center;
+    margin-top: 55px
+ }
+ .link a{
+     margin-left: 20px;
+ }
+.home{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    font-size: 18px;
+}
+.heading{
+    position:absolute;
+    display:flex;
+    right:670px;
+    top:360px; 
+}
+.grid{
+    display:grid;
+    grid-template-columns: 90px 90px 90px 90px ;
+    /* grid-template-rows:50px 50px 50px 50px ; */
+    padding: 142px 2px;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    display: grid;
+    border: 1px solid grey;
+    align-items: center;
+    justify-content: center;
+    /* z-index: 50; */
+}
+#item-1{
+    grid-column: 1/span 4;
+    height:40px;
+    background: blue;
+    color: black;
+}
+#item-2{
+    grid-column: 1/span 4;
+    height:40px;
+}
+#item-3, #item-4, #item-5, #item-6{
+    height:40px;
+    background: green ;
+}
+.tb{
+    background: green;
+}
+#main{
+    background: blue;
+} 
+#item-7{
+    grid-row: 4/sapn 7;
+    height:160px;
+    background: rgb(230, 230, 141);
+}
+#item-8{
+    grid-row: 4/ sapn 6;
+    height:120px;
+    background: rgb(230, 230, 141);
+
+}
+#item-15{
+    height:40px;
+    background: rgb(230, 230, 141)
+}
+#item-9, #item-11, #item-13, #item-16{
+    height:40px;
+    background: rgb(230, 230, 141);
+}
+#item-10, #item-12, #item-14, #item-17{
+height:40px;
+background: rgb(230, 230, 141);
+}
