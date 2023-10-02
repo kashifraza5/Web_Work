@@ -1,0 +1,86 @@
+body{
+    background-image: url(image\ 1.jpg);   
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+   color: blue;  
+}
+h3{
+    text-align: center;
+    color: green;  
+    margin-top: 40px; 
+}
+.hlink{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.A1 {
+    background: rgb(139, 139, 235)
+}
+.A2{
+ background: rgb(241, 241, 185);
+}
+.A3
+{
+  background: rgb(245, 139, 139);
+}
+.link{
+    align-items: center;
+    text-align: center;
+    margin-top: 55px
+ }
+ .link a{
+     margin-left: 20px;
+ }
+ .para{
+    position:absolute;
+    top:22.5rem;
+    right:43rem;
+ }
+ .grid{
+    display:grid;
+    grid-template-columns: 60px 90px 90px 50px 80px 80px 50px 50px ;
+    padding: 142px 2px;
+    align-items: center;
+    justify-content: center;
+ }
+ .box{
+    display: grid;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    height:40px;
+ }
+ #item1{
+    grid-row: 1/span 2;
+    height:120px;
+    text-align: center;
+ }
+ #item2{
+    grid-column: 2/ span 2;
+    height:60px;
+ }
+ #item3{
+    grid-column: 4/span 1;
+    grid-row: 1/span 2;
+    height:120px;
+ }
+ #item4{
+    grid-column: 5/span 2;
+    height:60px;
+ }
+ #item7, #item8, #item9, #item10{
+    height:60px;
+ }
+ #item5{
+    grid-column: 7/span 1;
+    grid-row: 1/span 2;
+    height:120px;
+}
+#item6{
+    grid-column: 8/span 1;
+    grid-row: 1/span 2;
+    height:120px;
+}
