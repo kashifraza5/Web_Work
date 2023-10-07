@@ -1,0 +1,41 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.flexcontainer{
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+}
+.box1{
+    display: flex;
+    /* flex-direction: column; */
+    background-color: rgb(250, 163, 178);
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.main{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+}
+.box2{
+    display: flex;
+    background-color: rgb(145, 236, 145);
+    margin-left:10px ;
+    margin-top: 10px;
+    height: 200px;
+    width: 500px;
+}
+.box3{
+    display: flex;
+    background-color: darkslateblue;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 800px;
+}
