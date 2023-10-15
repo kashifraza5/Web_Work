@@ -1,13 +1,15 @@
 body{
     background-color: #F7F6F2;
     font-family: sans-serif;
+    margin: 0%;
+    padding: 0%;
 }
 /* header part started */
 .header{
     display: flex;
     height: 70px;
     /* justify-content: space-between; */
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     
 } 
 .head1{
@@ -77,12 +79,87 @@ body{
  }
   /* part 2 ANIMATION  */
 .animate1{
-    display: flex;
-    height: 550px;
+    display: grid;
+    height: 580px;
     width: 400;
-    background-color: #a7e92f;
+    /* background-color: #a7e92f; */
     margin-left: 23px;
     margin-right: 23px;
-    margin-top: 20px;
+    margin-top: 10px;
+    border-radius: 40px;
 
+}
+.imageslider{
+    background-image: url(image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    animation: changeimage 18s linear infinite ;
+}
+@keyframes changeimage {
+    0%{
+        background-image: url(image1.jpg);
+    }
+    50%{
+        background-image: url(image3.jpg);
+    }
+    100%{
+        background-image: url(image2.jpg);
+    }
+}
+/* part 3 add text */
+.part3{
+     display: flex;
+     height: 220px;
+     width: 1305px;
+     /* background-color: #e9792f; */
+     margin-top: 100px;
+     margin-left: 23px;
+     /* margin-right: 3px; */
+     
+}
+.txt1{
+    font-size: 3.9rem;
+    position: absolute;
+}
+/* part 4 add 3 boxes */
+.part4{
+    display: flex;
+    height: 210px;
+    width: 1305px;
+    margin-left: 23px;
+    margin-top: 30px;
+    /* background-color: rgb(228, 165, 84); */
+}
+.part4-1{
+    height:150px;
+    width: 430px;
+    border-top: 2px solid #a7e92f ;
+    /* background-color: #a7e92f; */
+}
+.part4-2{
+    height:150px;
+    width: 430px;
+    border-top: 2px solid #a7e92f ;
+    /* background-color: aqua; */
+    margin-left: 15px;
+}
+.part4-3{
+    height:150px;
+    width: 430px;
+    border-top: 2px solid #a7e92f ;
+    /* background-color: blueviolet; */
+    margin-left: 15px;
+}
+.txt2{
+    font-size: 3.9rem;
+    margin-top: 17px;
+}
+.txt3{
+    margin-top: 17px;
+    font-size: 3.9rem;
+}
+.txt4{
+    margin-top: 17px;
+    font-size: 3.9rem;
 }
