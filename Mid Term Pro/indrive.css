@@ -1,11 +1,991 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
 body{
+   background-color: #F7F8F7 ; 
     display: grid;
-    grid-template-rows: 1fr 3fr 2fr;
+    grid-template-rows: 1fr 565px 3fr  1.8fr 3fr 8fr 2fr 2.5fr 3.7fr 5fr 1.5fr 2.5fr 8fr 2.3fr 4.5fr;
+    font-family: 'Noto Serif', serif;
 }
 .navbar{
      display: grid;
-     grid-template-columns: 1fr 3fr 1fr;
+     grid-template-columns: 0.7fr 2fr 1.5fr;
+     height: 80px;
+     margin: 0px 9% 0px 9%;
 }
-.navlogo{
-    background: blue;
+  .navlogo{
+    display: flex;
+    justify-content: center; 
+   align-items: center; 
 }
+.nav-logo1{
+    background-image: url(	https://indrive.com/assets/images/logo/logo_10_years.svg);
+    background-size: 90% 90%;
+    height: 72%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+ .nav-content{
+    /* background: rgb(206, 175, 236); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between; 
+}
+.txt1{
+    color: #7C8698;
+}
+.nav-button{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.nav-button1{
+    background: #F7F8F7;
+    height: 80px;
+}
+.nav-button2{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    height: 80px;
+}
+.nav-button3{
+   display: grid;
+   grid-template-rows: 1fr;
+}
+.nav-button4{
+    background: #e6e6e6;
+    height: 40px;
+    width: 90%;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+
+.nav-button5{
+    background: #F7F8F7;
+    display: grid;
+    border: 2px solid #a7e92f; 
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+     border-radius: 18px;
+     height: 65px;
+     margin-top: 5px;
+     width: 90%;
+}
+.nav-button5:hover{
+    background: #a7e92f;
+}
+/* Navbar completed */
+.hero-section{
+    background: black;
+    border-radius: 50px; 
+    margin-left: 9%;
+    margin-right: 9%;
+}
+/* part 3 */
+.hero1{
+    
+    /* margin-top: 7%; */
+    margin-left: 9%;
+    margin-right: 9%;
+    /* font-size: 56px;
+    line-height: 64px;
+    font-weight: 600; */
+ 
+}
+.hero1 p{
+    margin-top: 6%;
+    font-size: 46px;
+    line-height: 64px;
+    font-weight: 600;
+}
+.hero1 img{
+    position: absolute;
+    transform: translate(110%,59%);
+    height: 22%;
+}
+/* part 4 */
+.hero2{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    margin-left: 9%;
+    margin-right: 9%;
+    grid-gap: 10px;
+    
+}
+.hero2-1{
+    
+     border-top: 2px solid #a7e92f;
+    
+}
+.txt2{
+    font-size: 4rem;
+    line-height: 96px;  
+}
+.hero2-2{
+    border-top: 2px solid #a7e92f;
+}
+
+.hero2-3{
+    border-top: 2px solid #a7e92f;
+}
+/* part 5 */
+.hero3{
+    display: grid;
+    grid-template-columns: 3fr 2.5fr;
+    margin-left: 9%;
+    margin-right: 9%;
+    border-radius: 30px;
+    background: white;
+}
+.hero3-1{
+    margin: 20px 15px;
+    padding: 12px;
+}
+.hero3-1 h1{
+    font-size: 40px;
+    color: #323942;
+    font-weight: 600;
+    line-height: normal;
+}
+.hero3-1  p{
+    color: #323942;
+     font-size: 17px;
+     font-weight: 500;
+     line-height: 27px;
+}
+.hero3-1  span{
+    font-size: 20px;
+    font-weight: 400;
+    color: #4087e1;
+}
+.hero3-2{
+    background-image: url("https://indrive.com/assets/images/illustrations/safety.svg");
+    background-size: 100% 100%;
+}
+/* part 6 */
+.hero4{
+    display: grid;
+    grid-template-rows: 3.5fr 0.5fr 4fr;
+    background: #272C33;
+    margin-left: 9%;
+    margin-right: 9%;
+    border-radius: 45px;
+    margin-top: 55px;
+}
+.hero4-1{
+    
+    background-image: url("img3.jpg");
+    background-size: 100% 100%;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    border-radius: 25px;
+}
+.hero4-1-1{  
+ transform: translate(3%,230%);
+}
+.hero4-1-1 button{
+    width: 8%;
+    padding: 6px;
+    border: 1px solid #F0F0F0;
+    border-radius: 18px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #323942;  
+}
+.hero4-1-1 h2{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 64px;
+}
+.hero4-2{
+    margin-top: 20px;
+    font-size: 17px;
+    color: #fff;
+    
+    margin-left: 20px;
+}
+.hero4-3{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    margin-left: 20px;
+    margin-right: 20px;
+    grid-gap: 15px;
+  }
+  .hero4-3-1{
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      border-radius: 35px;
+      height: 90%;
+      background-color: #2F363F;
+  }
+  .hero4-3-1-1{
+      background-image: url("https://indrive.com/assets/images/verticals/new_city_vertical.svg");
+      background-size: 85% 85%;
+      background-repeat: no-repeat;
+      background-position: center center;
+  }
+  .hero4-3-1-2{
+      padding: 30px;
+  }
+  .hero4-3-1-2 h3{
+      font-size: 20px;
+     
+      color: #fff;
+  }
+  .hero4-3-1-2 p{
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 22px;
+      color: #fff;
+     
+  }
+  .hero4-3-1-2 span{
+      font-size: 20px;
+      font-weight: 400;
+      color: #4087e1
+  }
+  /* for box 2 */
+.hero4-3-2{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    border-radius: 35px;
+    height: 90%;
+    background-color: #2F363F;
+}
+.hero4-3-2-1{
+    background-image: url("https://indrive.com/assets/images/verticals/new_intercity_vertical.svg");
+    background-size: 85% 85%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.hero4-3-2-2{
+    padding: 30px;
+}
+.hero4-3-2-2 h3{
+    font-size: 20px;
+    
+    color: #fff;
+}
+.hero4-3-2-2 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #fff;
+   
+}
+.hero4-3-2-2 span{
+    font-size: 20px;
+    font-weight: 400;
+    color: #4087e1
+}
+/* for box 3 */
+.hero4-3-3{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    border-radius: 35px;
+    height: 90%;
+    background-color: #2F363F;
+}
+.hero4-3-3-1{
+    background-image: url("https://indrive.com/assets/images/verticals/new_courier_vertical.svg");
+    background-size: 85% 85%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.hero4-3-3-2{
+    padding: 30px;
+}
+.hero4-3-3-2 h3{
+    font-size: 20px;
+    color: #fff;
+}
+.hero4-3-3-2 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #fff;
+   
+}
+.hero4-3-3-2 span{
+    font-size: 20px;
+    font-weight: 400;
+    color: #4087e1
+}
+/* for box 4 */
+.hero4-3-4{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    border-radius: 35px;
+    height: 90%;
+    background-color: #2F363F;
+}
+.hero4-3-4-1{
+    background-image: url("https://indrive.com/assets/images/verticals/new_freight_delivery_vertical.svg");
+    background-size: 85% 85%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.hero4-3-4-2{
+    padding: 30px;
+}
+.hero4-3-4-2 h3{
+    font-size: 20px;
+    color: #fff;
+}
+.hero4-3-4-2 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #fff;
+   
+}
+.hero4-3-4-2 span{
+    font-size: 20px;
+    font-weight: 400;
+    color: #4087e1
+}
+/* part 7 */
+.hero5{
+    margin-left: 9%;
+    margin-right: 9%;
+    font-size: 20px;
+}
+.hero5 h1{
+   margin-top: 6%;
+}
+
+/* part 8 */
+.hero6{ 
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    margin-left: 9%;
+    margin-right: 9%;
+    grid-gap: 17px;
+}
+.hero6-1{
+    display: grid;
+    grid-template-rows: 0.6fr 0.4fr;
+    border-radius: 40px;
+    background: white;
+}
+.hero6-1-1{
+    margin: 25px 80% 0px 25px;  
+    background-image: url("https://indrive.com/assets/images/icons/advantages/humbleicons_thumb.svg");
+    background-size: 95% 95%;
+    background-repeat: no-repeat;
+}
+.hero6-1-2{
+   margin: 0px 25px 0px 25px; 
+}
+.hero6-1-2 h3{
+    font-weight: 600;
+    font-size: 20px;
+ }
+ .hero6-1-2 p{
+    font-size: 16px;
+ }
+ /* for box 2 */
+.hero6-2{
+    display: grid;
+    grid-template-rows: 0.6fr 0.4fr;
+    border-radius: 40px;
+    background: white;
+}
+.hero6-2-1{
+     margin: 25px 80% 0px 25px;  
+    background-image: url("https://indrive.com/assets/images/icons/advantages/humbleicons_thumb.svg");
+    background-size: 95% 95%;
+    background-repeat: no-repeat;
+   
+
+}
+.hero6-2-2{
+   margin: 0px 25px 0px 25px; 
+}
+.hero6-2-2 h3{
+    font-weight: 600;
+    font-size: 20px;
+ }
+ .hero6-2-2 p{
+    font-size: 16px;
+ }
+  /* for box 3 */
+  .hero6-3{
+    display: grid;
+     grid-template-rows: 0.6fr 0.4fr;
+    border-radius: 40px;
+    background: #FFFFFF;
+}
+.hero6-3-1{
+    margin: 25px 80% 0px 25px;  
+    background-image: url("	https://indrive.com/assets/images/icons/advantages/face-smile.svg");
+   background-size: 95% 95%;
+    background-repeat: no-repeat;
+
+}
+.hero6-3-2{
+   margin: 0px 25px 0px 25px; 
+}
+.hero6-3-2 h3{
+    font-weight: 600;
+    font-size: 20px;
+ }
+ .hero6-3-2 p{
+    font-size: 16px;
+ }
+ /* part 9 */
+.hero7{
+    display: grid;
+    grid-template-rows: 3fr;
+   
+}
+.hero7-1{
+    display: grid;
+    grid-template-columns: 3.5fr 2.5fr;
+    height: 65%;
+    margin-top: 6.5%;
+    margin-left: 9%;
+    margin-right: 9%;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+}
+.hero7-1-1{
+    background-image: url("	https://indrive.com/assets/images/logo/logo-only.svg");
+    background-size: 15% 15%;
+    background-repeat: no-repeat; 
+    margin-top: 25px; 
+    display: grid;
+    grid-template-rows: 0.6fr 2fr ; 
+}
+
+.hero7-1-1 span{
+    margin-left: 12%;
+    font-size: 13px;
+    color: #323942;
+}
+.hero7-1-1 img{
+    transform: translate(-350%,140%);
+}
+.hero7-1-1-1{
+    
+}
+.hero7-1-1-2{
+    margin-left: 25px;
+}
+.hero7-1-1-2 h2{
+   font-size: 43px;
+   color: #323942;
+}
+.hero7-1-1-2 button{
+    width: 35%;
+    padding: 17px;
+    border-radius: 10px;
+    background-color: #a7e92f;
+    border: 1px solid #a7e92f;
+ }
+.hero7-1-2{
+   
+    background-image: url("https://indrive.com/_next/image/?url=%2Fassets%2Fimages%2Fillustrations%2Fmobile_app.png&w=3840&q=100");
+    background-size: 90% 90%;
+    background-repeat: no-repeat;
+}
+/* part 10 */
+.hero8{
+    background: #272C33;
+    display: grid;
+    grid-template-rows: 6fr 3fr;
+    grid-gap: 10px;
+    margin-left: 9%;
+    margin-right: 9%;
+    border-radius: 45px;
+}
+.hero8-1{
+    
+    background-image: url("https://indrive.com/_next/image/?url=%2Fassets%2Fimages%2Fcovers%2Fservices_widget.jpeg&w=3840&q=75");
+    background-size: 100% 100%;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    border-radius: 25px;
+}
+.hero8-1-1{  
+ transform: translate(3%,230%);
+}
+.hero8-1-1 button{
+    width: 8%;
+    padding: 6px;
+    border: 1px solid #F0F0F0;
+    border-radius: 18px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #323942;  
+}
+.hero8-1-1 h2{
+    color: #fff;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 64px;
+}
+.hero8-2{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.hero8-2-1{
+    color: #fff;
+}
+.hero8-2-2{
+    background-color: #2F363F;
+    border-radius: 20px;
+    height: 90%;
+    display: grid;
+    grid-template-columns:1.7fr 1fr ;
+    
+}
+.hero8-2-2-1 h3{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -.2px;
+    color: #fff;
+}
+.hero8-2-2-1 p{
+    font-size: 14px;
+    font-weight: 400;
+    /* line-height: 22px; */
+    color: #fff;
+   
+}
+.hero8-2-2-1 a{
+    font-size: 17px;
+    font-weight: 400;
+    color: #4087e1
+}
+.hero8-2-2-1 {
+    padding: 25px;
+}
+.hero8-2-2-2{
+    
+    background-image: url("	https://indrive.com/assets/images/illustrations/specialists.svg");
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+/* part 11 */
+.hero9{
+    margin-left: 9%;
+    margin-right: 9%;
+    font-size: 25px;
+}
+.hero9 h1{
+   margin-top: 6%;
+}
+/* part 11 */
+.hero10{ 
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    margin-left: 9%;
+    margin-right: 9%;
+    grid-gap: 17px;
+}
+.hero10-1{
+    display: grid;
+    grid-template-rows: 0.4fr 0.7fr;
+    border-radius: 40px;
+    background: white;
+    height: 80%;
+}
+.hero10-1-1{
+    margin: 25px 70% 0px 25px;  
+    background-image: url("	https://indrive.com/assets/images/icons/advantages/lamp.svg");
+    background-size: 70% 70%;
+    background-repeat: no-repeat;
+
+}
+.hero10-1-2{
+   margin: 0px 25px 0px 25px; 
+   
+}
+.hero10-1-2 h3{
+    font-weight: 600;
+    font-size: 18px;
+ }
+ .hero10-1-2 p{
+    font-size: 16px;
+ }
+ /* for box 2 */
+.hero10-2{
+    display: grid;
+    grid-template-rows: 0.4fr 0.7fr;
+    border-radius: 40px;
+    background: white;
+    height: 80%;
+}
+.hero10-2-1{
+    margin: 25px 70% 0px 25px;  
+    background-image: url("	https://indrive.com/assets/images/icons/advantages/humbleicons_bulb.svg");
+    background-size: 70% 70%;
+    background-repeat: no-repeat;
+
+}
+.hero10-2-2{
+   margin: 0px 25px 0px 25px; 
+}
+.hero10-2-2 h3{
+    font-weight: 600;
+    font-size: 18px;
+ }
+ .hero10-2-2 p{
+    font-size: 16px;
+ }
+  /* for box 3 */
+  .hero10-3{
+    display: grid;
+    grid-template-rows: 0.4fr 0.7fr;
+    border-radius: 40px;
+    background: #FFFFFF;
+    height: 80%;
+}
+.hero10-3-1{
+    margin: 25px 70% 0px 25px;  
+    background-image: url("	https://indrive.com/assets/images/icons/advantages/humbleicons_thumb.svg");
+    background-size: 70% 70%;
+    background-repeat: no-repeat;
+
+}
+.hero10-3-2{
+   margin: 0px 25px 0px 25px; 
+}
+.hero10-3-2 h3{
+    font-weight: 600;
+    font-size: 20px;
+ }
+ .hero10-3-2 p{
+    font-size: 17px;
+ }
+ /* part 12 */
+.hero11{
+    display: grid;
+    grid-template-rows: 3.5fr 0.5fr 4fr 1fr;
+    background: #272C33;
+    margin-left: 9%;
+    margin-right: 9%;
+    border-radius: 45px;
+    margin-top: 15px;
+}
+.hero11-1{
+    
+    background-image: url("https://indrive.com/_next/image/?url=%2Fassets%2Fimages%2Fcovers%2Fimpact_widget_desktop_new.png&w=3840&q=75");
+    background-size: 100% 100%;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    border-radius: 25px;
+}
+.hero11-1-1{  
+ transform: translate(3%,210%);
+}
+.hero11-1-1 button{
+    width: 8%;
+    padding: 6px;
+    border: 1px solid #F0F0F0;
+    border-radius: 18px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #323942;  
+}
+.hero11-1-1 h2{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 64px;
+}
+.hero11-2{
+    margin-top: 20px;
+    font-size: 17px;
+    color: #fff;
+    
+    margin-left: 20px;
+}
+.hero11-3{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    margin-left: 20px;
+    margin-right: 20px;
+    grid-gap: 15px;
+  }
+  .hero11-3-1{
+      display: grid;
+      grid-template-rows: 0.4fr 1fr;
+      border-radius: 35px;
+      
+      background-color: #2F363F;
+  }
+  .hero11-3-1-1{
+      background-image: url("	https://indrive.com/assets/images/illustrations/character_woman_computer.svg");
+      background-size: 95% 95%;
+      background-repeat: no-repeat;
+      background-position: center center;
+  }
+  .hero11-3-1-2{
+      margin-left: 20px;
+  }
+  .hero11-3-1-2 h3{
+      font-size: 18px;
+      line-height: 35px;
+      color: #fff;
+  }
+  .hero11-3-1-2 p{
+      font-size: 14px;
+      color: #fff;
+     
+  }
+  
+  /* for box 2 */
+.hero11-3-2{
+    display: grid;
+    grid-template-rows: 0.4fr 1fr;
+    border-radius: 35px;
+    background-color: #2F363F;
+}
+.hero11-3-2-1{
+    background-image: url("	https://indrive.com/assets/images/illustrations/office_workers.svg");
+    background-size: 95% 95%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.hero11-3-2-2{
+    margin-left: 20px;
+}
+.hero11-3-2-2 h3{
+    font-size: 18px;
+    line-height: 35px;
+    color: #fff;
+}
+.hero11-3-2-2 p{
+    font-size: 14px;
+    color: #fff;
+   
+}
+
+/* for box 3 */
+.hero11-3-3{
+    display: grid;
+    grid-template-rows: 0.4fr 1fr;
+    border-radius: 35px;
+    background-color: #2F363F;
+}
+.hero11-3-3-1{
+    background-image: url("	https://indrive.com/assets/images/illustrations/creative_industries.svg");
+    background-size: 95% 95%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.hero11-3-3-2{
+    margin-left: 20px;
+}
+.hero11-3-3-2 h3{
+    font-size: 18px;
+    color: #fff;
+    line-height: 35px;
+}
+.hero11-3-3-2 p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+   
+}
+
+/* for box 4 */
+.hero11-3-4{
+    display: grid;
+    grid-template-rows: 0.4fr 1fr;
+    border-radius: 35px;
+    background-color: #2F363F;
+}
+.hero11-3-4-1{
+    background-image: url("	https://indrive.com/assets/images/illustrations/sport.svg");
+    background-size: 95% 95%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* background-color: #a7e92f; */
+}
+.hero11-3-4-2{
+    margin-left: 20px;
+}
+.hero11-3-4-2 h3{
+    font-size: 18px;
+    color: #fff;
+    line-height: 35px;
+}
+.hero11-3-4-2 p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+   
+}
+.hero11-4 button{
+   padding: 15px;
+   border-radius: 15px;
+   width: 11%;
+   background-color: #a7e92f;
+   border: 1px solid #a7e92f;
+}
+.hero11-4{
+    padding: 20px;
+}
+/* part 13 */
+.hero12{
+    
+    margin-left: 9%;
+    margin-right: 9%;
+    display: grid;
+    grid-template-rows: 2fr;
+
+}
+.hero12-1{
+    
+    height: 80%;
+   margin-top: 40px;
+   position: relative;
+}
+.hero12-1 p{
+    font-size: 25px;
+}
+.hero12-1 button{
+    padding: 15px;
+    border-radius: 15px;
+    width: 15%;
+    background-color: #a7e92f;
+    border: 1px solid #a7e92f;
+    font-size: 16px;
+ }
+ .hero12-1 img{
+    position: absolute;
+    transform: translate(135%,7%);
+    height: 63%;
+}
+.hero13{
+    background-color: #1B1B1C;
+    margin-left: 9%;
+    margin-right: 9%;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    display: grid;
+    grid-template-rows: 3fr 0.8fr 1.8fr 0.5fr;
+}
+.hero13-1{
+    display: grid;
+    grid-template-columns: 0.8fr 2fr 1fr;
+}
+.hero13-1-1{
+    background-image: url("	https://indrive.com/_next/image/?url=%2Fassets%2Fimages%2Flogo%2Flogo-white.png&w=48&q=75");
+    background-size: 16% 16%;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.hero13-1-2{
+    display: grid;
+    grid-template-columns: 0.3fr 0.3fr 0.4fr;
+}
+.hero13-1-2-1{
+      padding: 20px;
+}
+.hero13-1-2-1 p{
+      font-size: 12px;
+      color: #fff;
+      
+}
+.hero13-1-2-1 div{
+    font-size: 11px;
+    color: #fff;
+    line-height: 20px;
+}
+
+.hero13-1-2-2{
+    padding: 20px;
+}
+.hero13-1-2-2 p{
+    font-size: 12px;
+    color: #fff;
+}
+.hero13-1-2-2 div{
+  font-size: 11px;
+  color: #fff;
+  line-height: 20px;
+}
+
+.hero13-1-2-3{
+    padding: 20px;
+}
+.hero13-1-2-3 div{
+    font-size: 11px;
+    color: #fff;
+    line-height: 35px;
+  }
+
+.hero13-1-3{
+    display: grid;
+    grid-template-rows: 0.2fr;
+}
+.hero13-1-3-1{
+    display: grid;
+    margin-left: 70%;
+    margin-right: 7%;
+    margin-top: 6%;
+    color: #fff;
+    background-color: #2D2D2E;
+    align-items: center;
+    border-radius: 20px;
+}
+.hero13-2{
+    background-color: #1B1B1C;
+    margin-left: 3%;
+}
+.hero13-3{
+    display: grid;
+    grid-template-columns: 1.3fr 0.5fr;
+}
+.hero13-3-1{
+    margin-left: 3%;
+   color: #767677;
+   font-size: 11px;
+}
+.hero13-3-1 img{
+    height: 20%;
+   
+}
+.ab1{
+    font-size: 11px;
+    color: #767677;
+}
+.hero13-3-2{
+    background-image: url("	https://indrive.com/assets/images/icons/brandsign.svg");
+    background-size: 90% 90%;
+    background-repeat: no-repeat;
+ }
+ 
+
+
+
+.hero13-4{
+   
+}
+.hero13-4 span{
+    color: #fff;
+    font-size: 11px;
+    margin-left: 3%;
+}
+
